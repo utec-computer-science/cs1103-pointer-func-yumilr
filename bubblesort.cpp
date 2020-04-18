@@ -1,7 +1,7 @@
 #include <iostream>
 #include "bubblesort.h"
 using namespace std;
-//[2, 4 , 13, 20, 5]
+
 void * _bubblesort_( void * _array_, void (*_puntero_) (void *, int _i, int _k),int _tam_ ){
     int _k = 0;
     for (int i = 0; i < _tam_ ; i ++){
@@ -9,12 +9,9 @@ void * _bubblesort_( void * _array_, void (*_puntero_) (void *, int _i, int _k),
             _k = k-1;
             _puntero_(_array_, k, _k);
         }
- //       cout<<endl;
     }
     return _array_;
 }
-// cout<< *(int *)_vector_+_i<<' ';
-// cout<< *((int *)_vector_+_i)<<endl;
 
 void  _b_int_ (void * _vector_, int _i,int _k){
     if( *((int *)_vector_+_i) < *((int *)_vector_+_k)){
