@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jlr/CLionProjects/POOTEO/cs1103-pointer-func-yumilr/bubblesort.h
+iostream
+-
+
+/home/jlr/CLionProjects/POOTEO/cs1103-pointer-func-yumilr/main.cpp
+iostream
+-
+vector
+-
+bubblesort.h
+/home/jlr/CLionProjects/POOTEO/cs1103-pointer-func-yumilr/bubblesort.h
+

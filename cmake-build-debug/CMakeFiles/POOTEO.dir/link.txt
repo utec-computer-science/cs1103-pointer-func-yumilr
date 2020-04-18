@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/POOTEO.dir/main.cpp.o  -o POOTEO 
